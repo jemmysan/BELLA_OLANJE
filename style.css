@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root
+{
+    --border : 2px solid rgb(185, 183, 183);
+    --bellacolor : orangered;
+    --fontbold : bold;
+    --fontsize1 : 2rem;
+    --fontsize2 : 1.3rem;
+    --fontsize3 : 0.9rem;
+    --grey : rgb(99, 93, 93);
+    --black : black;
+    --white : white;
+    --poppins : 'Poppins', sans-serif;
+    --width : 50rem;
+}
+
+*{
+    margin: 0rem;
+    padding : 0rem;
+    box-sizing: border-box;
+}
+
+/*****container***/
+
+/******header*****/
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color:black;
+}
+
+/******logo****/
+.logo
+{
+    margin-left : 5rem;
+    background-image: url(images/Logo.png);
+    background-repeat: no-repeat;
+    background-size: 14rem 12rem;
+    padding : 8rem;
+}
+
+
+/*****menu******/
+.menu
+{
+    width : var(--width);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: var(--fontbold);
+}
+
+
+.menu div:hover
+{
+    color : var(--bellacolor);
+    cursor: pointer;
+}
+
+
+/*******Postheader******/
+.postheader
+{
+    display: grid;
+    background-image: url(images/Rectangle\ 48BG\ Slide\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    block-size: 35rem;
+    justify-content: space-around;
+}
+
+.postheader > div
+{
+    justify-content: space-around;
+    font-size: var(--fontsize1);
+    font-family: var(--poppins);
+    align-items: center;
+}
+
+.postheader > div:nth-child(1)
+{
+    display: flex;
+    justify-content: center;
+    font-size: var(--fontsize2);
+    color : var(--white);
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+
+.postheader > div:nth-child(2)
+{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color : var(--white)
+}
+
+.postheader > div:nth-child(3)
+{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color : var(--white);
+    padding-bottom : 1rem
+}
+
+
+.postheader > div:nth-child(4)
+{
+    display: flex;
+    justify-content: center;
+    font-size: var(--fontsize3);
+    color : var(--white);
+    padding-top : 1rem;
+}
+
+
+
+.postheader > div:nth-child(5)
+{
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    font-family: var(--poppins);
+    gap : 3rem;
+    color: var(--white);
+}
+
+.postheader > div:nth-child(5) > div
+{
+    width: 9rem;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+}
+
+
+.postheader > div:nth-child(5) > div:nth-child(1)
+{
+   border : 2px solid orangered;
+   background-color: var(--bellacolor);
+}
+
+
+.postheader > div:nth-child(5) > div:nth-child(2)
+{
+   border : var(--border);
+   border-color: var(--white);
+}
+
+
+.postheader > div:nth-child(6) 
+{
+    width: 23rem;
+    background-image: url(images/2telephones.png);
+    background-repeat : no-repeat;
+    padding: 20rem;
+    background-size: 36rem 46rem;
+    margin-top: -10rem;
+}
+
+
+/*******Advertising*****/
+.advertising
+{
+    width : auto;
+    display: grid;
+    justify-content: center;
+    font-family: var(--poppins);
+    font-weight: var(--fontbold);
+    font-size: 1.5rem ;
+    margin-top: 22rem;
+    text-align: center;
+}
+
+.advertising > div:nth-child(1)
+{
+    margin-top:3rem;
+    padding-top: 2rem;
+    border-top: var(--border);
+    width: auto;
+    font-size: var(--fontsize1);
+}
+
+
+.mobtext1
+{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+
+/****** cell phone 1 ****/
+.mobtext1 > div:nth-child(1)
+{
+    background-image: url(images/RectangleImg2.png);
+    background-repeat: no-repeat;
+    padding: 20rem 16rem;
+}
+
+
+/***** text 1 *****/
+.mobtext1 > div:nth-child(2)
+{
+    padding-top:18rem;
+    justify-content: center;
+    font-size: var(--fontsize1);
+}
+
+.mobtext1 > div:nth-child(2)> div:nth-child(1)
+{
+    color: var(--bellacolor);
+    font-size: var(--fontsize2);
+    margin-bottom: 1rem;
+}
+
+
+
+.mobtext1 > div:nth-child(2)> div:nth-child(3)
+{
+    padding-bottom: 1rem;
+}
+
+
+.mobtext1 > div:nth-child(2)> div:nth-child(4)
+{
+    color: var(--grey);
+    font-size: var(--fontsize3);
+}
+
+.mobtext1 > div:nth-child(2)> div:nth-child(5)
+{
+    color: var(--grey);
+    font-size: var(--fontsize3);
+}
+
+
+/*******Mobitext2*******/
+
+/*****text*******/
+
+.mobtext2
+{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+
+
+.mobtext2 > div
+{
+    font-size: var(--fontsize1);
+}
+
+
+.mobtext2 > div:nth-child(1)
+{
+    padding-top:18rem;
+    justify-content: center;
+}
+
+.mobtext2 > div:nth-child(1)> div:nth-child(1)
+{
+    color: var(--bellacolor);
+    font-size: var(--fontsize2);
+    margin-bottom: 1rem;
+}
+
+
+.mobtext2 > div:nth-child(1)> div:nth-child(2)
+{
+    font-size: var(--fontsize1);
+}
+
+.mobtext2 > div:nth-child(1)> div:nth-child(3)
+{
+    font-size: var(--fontsize1);
+    padding-bottom: 1rem;
+}
+
+
+.mobtext2 > div:nth-child(1)> div:nth-child(4)
+{
+    color: var(--grey);
+    font-size: var(--fontsize3);
+}
+
+.mobtext2 > div:nth-child(1)> div:nth-child(5)
+{
+    color: var(--grey);
+    font-size: var(--fontsize3);
+}
+
+
+/*****Cell phone 2****/
+.mobtext2 > div:nth-child(2)
+{
+    background-image: url(images/RectangleImg3.png);
+    background-repeat: no-repeat;
+    padding: 20rem 14rem;
+}
+
+
+
+/******** footer******/
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+}
+
+.flogo
+{
+    margin-left: 4rem;
+    background-image: url(images/Logo.png);
+    background-repeat: no-repeat;
+    padding: 8rem;
+    background-size: 8rem 8rem;
+}
+
+.icone
+{
+    display:flex;
+    margin-left: none;
+}
+
+.icone > div:nth-child(1)
+{
+    background-image: url(images/Vector\ \(1\).png);
+    background-repeat: no-repeat;
+    padding: 2rem;
+    background-size: 2rem 2rem;
+}
+
+.icone > div:nth-child(2)
+{
+    background-image: url(images/instagramicone.png);
+    background-repeat: no-repeat;
+    padding: 2rem;
+    background-size: 2rem 2rem;
+}
+
+.icone > div:nth-child(3)
+{
+    background-image: url(images/Vector.png);
+    background-repeat: no-repeat;
+    padding: 2rem;
+    background-size: 2rem 2rem;
+}
+
+.jst
+{
+    display : none;
+}
+
+/**************** end of web laptop**********/
+
+
+
+
+
+
+
+/******** Application mobile *********/
+
+@media  screen and (max-width : 782px)
+{
+    /******logo****/
+    .logo
+    {
+        background-size: 8rem 6rem;
+    }
+    /*****Menu****/
+    .menu
+    {
+        display : none;
+    }
+
+
+
+    /****** Postheader****/
+    .postheader
+    {
+        background-image: none;
+    }
+
+    .postheader > div
+    {
+        color : black
+    }
+
+    .postheader > div:nth-child(1)
+    {
+        color:var(--grey);
+        font-size: var(--fontsize3);
+    }
+
+    .postheader > div:nth-child(2)
+    {
+        font-size: var(--fontsize1);
+        color : black
+    }
+
+    .postheader > div:nth-child(3)
+    {
+        font-size: var(--fontsize1);
+        color : black
+    }
+
+    .postheader > div:nth-child(4)
+    {
+        font-size: var(--fontsize3);
+        color: var(--grey);
+    }
+
+    .postheader > div:nth-child(5)
+    {
+        display: grid;
+        gap: 0em;
+    }
+
+    .postheader > div:nth-child(5) > :nth-child(1)
+    {
+        width: 12rem;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .postheader > div:nth-child(5) > div:nth-child(2)
+    {
+        
+        width: 12rem;
+        padding: 1rem;
+        color: var(--bellacolor);
+        border: 2px solid orangered;/****** a changer****/
+    }
+
+
+
+
+
+    /*********************************/
+    /******advertising******/
+    .advertising > div:nth-child(1)
+    {
+        border-top : none;
+        border-bottom: var(--border);
+        padding: 2rem;
+        font-size: var(--fontsize2);
+    }
+
+    /******* mobitext1***/
+    .mobtext1
+    {
+        display : grid;
+        padding : 0rem;
+        margin: 0rem;
+    }
+    .mobtext1 > div:nth-of-type(1)
+    {
+        order : 2
+    }
+
+
+     /******* mobitext2***/
+     .mobtext2
+     {
+         display : grid;
+         padding : 0rem;
+         margin: 0rem;
+     }
+     .mobtext1 > div:nth-of-type(1)
+     {
+         order : 2
+     }
+
+
+     /*******Footer*****/
+     
+     .footer
+     {
+        display: felx;
+     }
+     .flogo
+     {
+        display : none;
+     }
+     .copyr
+     {
+        display: none;
+     }
+
+     .icone
+     {
+        padding-top: 4rem;
+        padding-bottom: 0rem;
+        margin-left: 8rem;
+        block-size:10rem;
+     }
+
+    .icone > div:nth-child(1)
+    {
+        background-size: 4rem;
+        padding : 0rem 3rem;
+    }
+
+    .icone > div:nth-child(2)
+    {
+        background-size: 4rem;
+        padding : 6rem 3rem
+    }
+
+    .icone > div:nth-child(3)
+    {
+        background-size: 4rem;
+        padding : 6rem 3rem
+
+    }
+
+    .icone > div:nth-child(4)
+    {
+        display : block;
+    }
+
+    
+    .jst
+    {
+        font-size: var(--fontsize2);
+        color: var(--grey);
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
